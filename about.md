@@ -38,7 +38,7 @@ public void exampleFunction()
 
 The output graph generated for the user looks like this:
 
-<img src="/assets/images/graphAbout.png" alt="Function Graph Example" style="max-width:400px; display:block; margin:2em auto;" />
+<img src="{{ site.baseurl }}/assets/images/graphAbout.png" alt="Function Graph Example" style="max-width:400px; display:block; margin:2em auto;" />
 
 The entry point is marked in green, and the exit point is in red.  
 On the left section, the for loop is displayed, while the section on the right represents the code after the loop ends.  
@@ -46,4 +46,4 @@ The black block indicates the if statement, and the adjacent block on the right 
 
 Additionally, users can choose a "simplify" option to generate a less detailed graph. This mode abstracts basic commands while preserving key structural elements, providing a higher-level view of the function's flow:
 
-<img src="/assets/images/graphAbout2.png" alt="Simplified Function Graph" style="max-width:400px; display:block; margin:2em auto;" />
+<img src="{{ site.baseurl }}/assets/images/graphAbout2.png" alt="Simplified Function Graph" style="max-width:400px; display:block; margin:2em auto;" />

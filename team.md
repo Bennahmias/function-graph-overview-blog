@@ -50,7 +50,7 @@ permalink: /team/
   {% assign members = site.data.authors %}
   {% for member in members %}
     <div class="team-member">
-      <img src="{{ member[1].picture }}" alt="{{ member[1].name }}">
+      <img src="{{ site.baseurl }}{{ member[1].picture }}" alt="{{ member[1].name }}">
       <div class="name">{{ member[1].name }}</div>
       <a class="github" href="{{ member[1].github }}" target="_blank">GitHub</a>
     </div>
