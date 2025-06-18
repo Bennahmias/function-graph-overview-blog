@@ -18,8 +18,8 @@ theme: minima
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Function Graph Overview Blog"
-baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: /function-graph-overview-blog
+url: "https://bennahmias.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
