@@ -139,6 +139,10 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 2em;
 
+  @media (min-width: 900px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .entry {
     display: -webkit-box;
     display: -ms-flexbox;

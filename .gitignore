@@ -12,3 +12,20 @@ codekit-config.json
 Gemfile.lock
 node_modules
 npm-debug.log*
+
+# Jekyll
+_site/
+.jekyll-cache/
+.sass-cache/
+*.gem
+*.rbc
+.bundle/
+vendor/
+Gemfile.lock
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
